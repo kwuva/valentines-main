@@ -13,9 +13,19 @@ body {
   }
   
 h1 {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  }
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 1rem;
+}
+
   
 img {
     max-width: 100%;
